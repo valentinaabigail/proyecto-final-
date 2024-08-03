@@ -1,0 +1,186 @@
+/*BODY*/
+body{
+     background-color: bisque;
+     font-family: sans-serif;
+     margin: 0;
+}
+/*HEADER*/
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(235, 163, 69);
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+/*LOGO*/
+.logo {
+    display: flex;
+    align-items: center;
+}
+/*ICONO*/
+.icono {
+    height: 70px;
+    margin: 10px;
+}
+
+.nombre2{
+    display: flex;
+    align-items: center;
+}
+/*NAV*/
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+/*RESPONSIVE*/
+@media (max-width:717px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:717px){
+    #links{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:717px){
+    .centrado{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+    }
+}
+@media (max-width:717px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:717) {
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+/*estilos comunes*/
+.alinear{
+    display: flex;
+    justify-content: center;
+}
+
+.centrado {
+    display: flex;
+    justify-content:center;
+}    
+#gustabo {
+    width: 300px ;
+    height: 300px ;
+    margin-right:70px ;
+}
+#gambino {
+    width: 300px ;
+    height: 300px ;
+    margin-left: 100px ;
+}
+#gustabo {
+    border-style: double double double solid;
+    border-width: 10px;
+    padding: auto;
+}
+#gambino {
+    border-style: double double double solid;
+    border-width: 10px;
+    padding: auto;
+} 
+#links {
+    display: flex;
+    justify-content: center;
+}
+#caso1 {
+    width: 250px;
+    height: 50px;
+    margin-right: 230px;
+    color:slategrey;
+}
+#caso2 {
+    width: 200px;
+    height: 50px;
+    margin-right: 70px;
+    color: slategrey;
+}
+.nombre2{
+    color: black;
+}
+mark{
+    background-color: rgba(138, 85, 47, 0.548);
+}
+/*ASIDE*/
+.biografiacolor{
+    background-color: rgba(160, 81, 45, 0.425);
+}
+/*FOOTER*/
+.footer {
+    max-width: 700px;
+    margin: 0 auto;
+} 
+/*IMG Y BIO CASO1*/
+.biografiacaso1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gustabo2{
+    border-style: double double double solid;
+    border-width: 10px;
+}
+/*IMG Y BIO CASO2*/
+.biografiacaso2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gustabo2{
+    width: auto;
+    height: 70vh;
+    margin: 20px;
+}
+.gambino2{
+    border-style: double double double solid;
+    border-width: 10px;
+}
+.gambino2{
+    width: auto;
+    height: 70vh;
+    margin: 20px;
+}
+/* FORMULARIO*/
+form {
+    padding: 20px;
+    background-color: rgb(207, 144, 62);
+    border-style: double;
+}
+label {
+    background-color: rgb(248, 228, 184);
+    border-radius: 15px;
+}
+/*estilo bootstrap*/
+
+.cartas{
+    display:flex;
+    justify-content: center;
+    align-content: center; 
+    background-color: bisque;
+    
+    margin:auto;
+}
+.cartas{
+    max-width: 40%;
+    height: 20%;
+    margin: 10px auto;
+    padding: 20px;
+    border: chocolate double 5px;
+}
